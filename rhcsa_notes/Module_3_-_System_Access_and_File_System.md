@@ -1,3 +1,9 @@
+---
+title: Module 3 - System Access and File System
+nav_order: 2
+layout: default
+---
+
 # Module 3 - System Access and File System
 
 ## find vs locate

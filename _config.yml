@@ -6,5 +6,5 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-rmeote-theme
 
-color_scheme: light
+color_scheme: dark
 enable_dark_mode: true

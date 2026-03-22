@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cfff3f5d7eb26018",
+        "id": "4adfaf7bc1622230",
         "type": "tabs",
         "children": [
           {
-            "id": "167e2bc24ed4a966",
+            "id": "a19af731a3874c83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -152,6 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "167e2bc24ed4a966",
-  "lastOpenFiles": []
+  "active": "a19af731a3874c83",
+  "lastOpenFiles": [
+    "index.md",
+    "rhcsa_notes/Module_3_-_System_Access_and_File_System.md",
+    "rhcsa_notes/index.md",
+    "README.md"
+  ]
 }

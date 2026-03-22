@@ -1,3 +1,7 @@
-theme: just-the-docs
 title: Notebook
 description: Various notes, plans, and ideas.
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-rmeote-theme

@@ -6,5 +6,4 @@ has_children: true
 
 # RHCSA Notes
 
-> [!note]
-> Here lies my notes from my System Administrator notes from my Udemy courses.
+Here lies my notes from my System Administrator course from Udemy.

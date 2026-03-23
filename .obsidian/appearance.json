@@ -1,3 +1,13 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "homepage",
+    "utilities-interface",
+    "custom-background",
+    "interface-style"
+  ],
+  "accentColor": "",
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "showRibbon": true
 }

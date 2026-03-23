@@ -1,0 +1,11 @@
+{
+  "custom-workspace-background@@enable-background": false,
+  "simple-custom-background@@enable-custom-background": true,
+  "anuppuccin-custom-background@@background-image-toggle": true,
+  "interface-style@@background-image-toggle": false,
+  "interface-style@@workspace-custom-bg-blur": 5,
+  "interface-style@@workspace-custom-bg-brightness": 0.5,
+  "interface-style@@homepage-multi-column-toggle": true,
+  "interface-style@@homepage-toggle": true,
+  "interface-style@@hide-file-name": "hide-name-utility"
+}

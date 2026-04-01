@@ -1,13 +1,13 @@
 ---
-title: Home Streaming Setup
-parent: Home Server Setup
-nav_order: 1
+title: Streaming Setup
+parent: Home Server
+nav_order: 2
 layout: default
 ---
 
-# Home Streaming Setup
+# Streaming Setup
 
-My home streaming setup if fairly simple and automated. It's currently made up of Jellyfin for streaming, qBittorrent for downloading, and the \*arr suite (prowlarr, sonarr, radarr, and lidarr) for finding torrents.
+My streaming setup is fairly simple and automated. It's currently made up of Jellyfin for streaming, qBittorrent for downloading, and the \*arr suite (prowlarr, sonarr, radarr, and lidarr) for finding torrents.
 
 The script that I use is below. I chose to name it `streamarr.sh` to pay homage to the work horses of the setup. I thought about creating a git repo to track changes I make to it, but that seems a bit overkill for something that is only used once every year or longer.
 

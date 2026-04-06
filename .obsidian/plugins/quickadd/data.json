@@ -48,7 +48,10 @@
             "insertAtEnd": true,
             "considerSubsections": true,
             "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
+            "createIfNotFoundLocation": "top",
+            "inline": false,
+            "replaceExisting": false,
+            "blankLineAfterMatchMode": "auto"
           },
           "prepend": false,
           "task": false,
@@ -58,7 +61,9 @@
             "direction": "vertical",
             "mode": "default",
             "focus": true
-          }
+          },
+          "captureToCanvasNodeId": "",
+          "activeFileWritePosition": "cursor"
         }
       ],
       "collapsed": true
@@ -100,14 +105,72 @@
         "direction": "vertical",
         "mode": "default",
         "focus": true
-      }
+      },
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor"
+    },
+    {
+      "id": "a2c34753-871b-4de4-bc4e-330cc7ec584b",
+      "name": "New Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_utilities/templates/new_note.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "4ea791ed-44f7-461d-9de5-c0a696d4a2bb",
+      "name": "New Topic",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_utilities/templates/new_topic.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "index.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "source",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "multi-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
   "devMode": false,
-  "templateFolderPath": "_Utilities/Templates",
+  "templateFolderPath": "_utilities/templates",
   "announceUpdates": "none",
   "version": "2.12.0",
   "globalVariables": {},

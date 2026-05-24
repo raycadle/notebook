@@ -5,9 +5,18 @@ parent: Linux Notes
 
 # Sytem Directories
 
-A very informative video about the file system: https://www.youtube.com/watch?v=HbgzrKJvDRw
+Here's a very informative video about the file system:
 
-An informative post about the file system: https://www.thegeekstuff.com/2010/09/linux-file-system-structure/
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/HbgzrKJvDRw?si=hTWXD7QGnWWbDT-8"
+    style="position: absolute; top:0; left:0; width:100%; height:100%;"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+Here's [an informative post](https://www.thegeekstuff.com/2010/09/linux-file-system-structure/) about the file system.
 
 - / - root directory - the root of the directory "tree".
 - /bin - user binaries - basic user binaries like `ls`, `cat`, etc. are kept here.

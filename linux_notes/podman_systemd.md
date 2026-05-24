@@ -1,6 +1,6 @@
 ---
 title: Podman & Systemd
-parent: RHCSA Notes
+parent: Linux Notes
 ---
 
 # Podman & Systemd

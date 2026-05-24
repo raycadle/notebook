@@ -1,8 +1,6 @@
 ---
 title: Server Setup
 parent: Home Server
-nav_order: 1
-layout: default
 ---
 
 # Server Setup

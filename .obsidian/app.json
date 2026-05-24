@@ -1,7 +1,9 @@
 {
   "showInlineTitle": false,
   "useTab": true,
-  "openBehavior": "file:index",
+  "openBehavior": "",
   "attachmentFolderPath": "assets",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_utilities/inbox"
 }

@@ -7,5 +7,6 @@
   "interface-style@@workspace-custom-bg-brightness": 0.5,
   "interface-style@@homepage-multi-column-toggle": true,
   "interface-style@@homepage-toggle": true,
-  "interface-style@@hide-file-name": "hide-name-utility"
+  "interface-style@@hide-file-name": "hide-name-utility",
+  "minimal-style@@active-line-on": true
 }

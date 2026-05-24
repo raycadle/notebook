@@ -1,6 +1,6 @@
 ---
 title: Rsync Notes
-parent: RHCSA Notes
+parent: Linux Notes
 ---
 
 # Rsync Notes

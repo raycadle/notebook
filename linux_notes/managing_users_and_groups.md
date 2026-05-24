@@ -1,6 +1,6 @@
 ---
 title: Managing Users and Groups
-parent: RHCSA Notes
+parent: Linux Notes
 ---
 
 # Managing Users and Groups

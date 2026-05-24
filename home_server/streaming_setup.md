@@ -1,8 +1,6 @@
 ---
 title: Streaming Setup
 parent: Home Server
-nav_order: 2
-layout: default
 ---
 
 # Streaming Setup

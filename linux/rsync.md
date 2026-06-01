@@ -1,6 +1,6 @@
 ---
 title: Rsync
-parent: Linux Notes
+parent: Linux
 ---
 
 # Rsync

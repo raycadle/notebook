@@ -1,6 +1,6 @@
 ---
 title: System Directories
-parent: Linux Notes
+parent: Linux
 ---
 
 # Sytem Directories

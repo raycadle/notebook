@@ -1,6 +1,6 @@
 ---
 title: Wildcards
-parent: Linux Notes
+parent: Linux
 ---
 
 # Wildcards

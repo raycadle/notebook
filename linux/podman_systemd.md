@@ -1,6 +1,6 @@
 ---
 title: Podman & Systemd
-parent: Linux Notes
+parent: Linux
 ---
 
 # Podman & Systemd

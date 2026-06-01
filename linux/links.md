@@ -1,6 +1,6 @@
 ---
 title: Links
-parent: Linux Notes
+parent: Linux
 ---
 
 # Links

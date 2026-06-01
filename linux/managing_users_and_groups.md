@@ -1,6 +1,6 @@
 ---
 title: Managing Users and Groups
-parent: Linux Notes
+parent: Linux
 ---
 
 # Managing Users and Groups

@@ -1,6 +1,6 @@
 ---
 title: Finding Files
-parent: Linux Notes
+parent: Linux
 ---
 
 # Finding Files

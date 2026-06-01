@@ -1,10 +1,9 @@
 ---
 title: Home
-layout: default
 nav_order: 1
 ---
 
-# Welcome
+# Notebook
 
-This is where I store all my notes, plans, and ideas.
+Thoughts, plans, and ideas.
 

@@ -1,6 +1,6 @@
 ---
 title: Streaming Setup
-parent: Home Cloud
+parent: Personal Cloud
 ---
 
 # Streaming Setup

@@ -1,6 +1,6 @@
 ---
 title: Server Setup
-parent: Home Cloud
+parent: Personal Cloud
 ---
 
 # Server Setup

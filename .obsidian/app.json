@@ -2,8 +2,9 @@
   "showInlineTitle": false,
   "useTab": true,
   "openBehavior": "file:README",
-  "attachmentFolderPath": "assets",
+  "attachmentFolderPath": "_utilities/assets",
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "_utilities/inbox"
+  "newFileFolderPath": "_utilities/inbox",
+  "showUnsupportedFiles": true
 }

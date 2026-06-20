@@ -1,5 +1,5 @@
 ---
-title: Personal Cloud
+title: Home Cloud
 has_children: true
 parent: Home
 ---

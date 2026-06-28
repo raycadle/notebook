@@ -5,7 +5,7 @@ favicon_ico: "/assets/images/favicon.ico"
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
-  - jekyll-rmeote-theme
+  - jekyll-remote-theme
 
 color_scheme: dark
 enable_dark_mode: true
@@ -16,8 +16,5 @@ gh_edit_link_text: "Edit on Github"
 gh_edit_repository: "https://github.com/raycadle/notebook"
 gh_edit_branch: "main"
 gh_edit_source: "."
-gh_edit_view_mode: "edit"
+gh_edit_view_mode: "tree"
 
-footer_content: >
-  <a href="https://github.com/raycadle/notebook">GitHub</a> •
-  © 2026 My Project

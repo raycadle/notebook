@@ -1,0 +1,293 @@
+/* @settings
+
+name: Interface Style
+id: interface-style
+settings:
+
+-
+  id: interface-heading
+  title: Documentation
+  description: Modify the look and feel of the interface.
+  type: heading
+  level: 1
+  collapsed: false
+-
+  id: homepage-heading
+  title: Homepage
+  description: Create a versatile homepage using the Homepage plugin. The homepage note must be marked 'homepage' with the 'cssclasses' property.
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: homepage-toggle
+  title: Enable
+  type: class-toggle
+  default: true
+-
+  id: homepage-multi-column-toggle
+  title: Multi-Column Callouts
+  description: Enable multi-column mode using custom callout 'multi-column'.
+  type: class-toggle
+  default: true
+-
+  id: background-image-heading
+  title: Background Image
+  description: Apply a background image throughout the workspace.
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: background-image-toggle
+  title: Enable
+  type: class-toggle
+  default: true
+-
+  id: background-image-url
+  title: Background Image URL
+  description: The URL of the background image used when enabled. Formatted as 'url("https://link-to-image.png")'.
+  type: variable-text
+  default: url("https://raw.githubusercontent.com/raycadle/wallpaper/refs/heads/main/dark_academia_library_alt.jpg")
+-
+  id: workspace-custom-bg-brightness
+  title: Background Brightness
+  type: variable-number-slider
+  min: 0
+  max: 1
+  step: 0.05
+  default: 0.5
+-
+  id: workspace-custom-bg-blur
+  title: Background Blur
+  type: variable-number-slider
+  min: 0
+  max: 20
+  step: 1
+  default: 5
+  format: px
+-
+  id: hide-ui-elements
+  title: Hide UI Elements
+  description: Hide elements from showing in the UI.
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: hide-file-name
+  title: Hide File Name
+  description: Hides the file name in the Title Bar. Can be set for all notes or only those marked 'utility' using the 'cssclasses' property.
+  type: class-select
+  allowEmpty: false
+  default: hide-name-none
+  options:
+    -
+      label: None
+      value: hide-name-none
+    -
+      label: All Notes
+      value: hide-name-all
+    -
+      label: Utility Notes Only
+      value: hide-name-utility
+-
+  id: hide-file-path
+  title: Hide File Path
+  description: Hides the file path in the Title Bar. Can be set for all notes or only those marked 'utility' using the 'cssclasses' property.
+  type: class-select
+  allowEmpty: false
+  default: hide-path-utility
+  options:
+    -
+      label: None
+      value: hide-path-none
+    -
+      label: All Notes
+      value: hide-path-all
+    -
+      label: Utility Notes Only
+      value: hide-path-utility
+
+
+*/
+
+/* =================================== */
+/* ======== Homepage Settings ======== */
+/* =================================== */
+
+.homepage-toggle {
+  .homepage {
+    font-family: inherit;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 20px !important;
+  }
+
+  .homepage .markdown-preview-section {
+    max-width: 100%;
+  }
+
+  /* Title at top of the document */
+  .homepage .markdown-preview-section .title {
+    top: 50px;
+    position: absolute;
+    font-size: 36pt !important;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+  .homepage h1 {
+    border-bottom-style: solid !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
+    text-align: center;
+  }
+
+  /* Get rid of the parent bullet */
+  .homepage div.markdown-preview-section > div > ul > li > div.list-bullet {
+    display: none !important;
+  }
+
+  /* Remove the indentation guide lines */
+  .homepage.markdown-rendered.show-indentation-guide li > ul::before,
+  .homepage.markdown-rendered.show-indentation-guide li > ol::before {
+    display: none;
+  }
+
+  div.markdown-preview-section > div > ul.has-list-bullet > li {
+    padding-left: 0p !important;
+  }
+
+  .homepage div > ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    flex-flow: row wrap;
+  }
+
+  .homepage div > ul > li {
+    min-width: 250px;
+    width: 15%;
+  }
+
+  /* Dataview support */
+  .homepage ul.dataview {
+    row-gap: 0px !important;
+    list-style-type: disc !important;
+  }
+
+  /* Make homepages use wide margin if "Readable line length" is enabled in Editor */
+  .homepage.markdown-preview-view.is-readable-line-width .markdown-preview-section,
+  .homepage.markdown-preview-view.is-readable-line-width .markdown-preview-section > div {   
+     width: 100% !important;
+     max-width: 100% !important;
+  }
+}
+
+.homepage-multi-column-toggle {
+  /* Default multi-column layout (auto-flow children) */
+  .homepage div[data-callout="multi-column"].callout > .callout-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem; /* spacing between columns */
+  }
+
+  /* Hide the parent multi-column callout entirely, including its title */
+  .homepage div[data-callout="multi-column"].callout {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  /* Hide the callout title of the parent multi-column callout */
+  .homepage div[data-callout="multi-column"].callout > .callout-title {
+    display: none !important;
+  }
+
+  /* Maintain default vertical spacing for nested callouts */
+  .homepage div[data-callout="multi-column"].callout > .callout-content > .callout {
+    margin-top: 0.5em;   /* matches Obsidian default spacing */
+    margin-bottom: 0.5em;
+  }
+}
+
+/* =========================================== */
+/* ======== Background Image Settings ======== */
+/* =========================================== */
+
+.background-image-toggle {
+	.app-container {
+		background: var(
+			--background-image-url,
+			url("https://raw.githubusercontent.com/raycadle/wallpaper/refs/heads/main/dark_academia_library_alt.jpg")
+		);
+		background-size: cover;
+		background-color: transparent;
+	}
+	.horizontal-main-container {
+		backdrop-filter: brightness(var(--workspace-custom-bg-brightness, 0.5))
+			blur(var(--workspace-custom-bg-blur, 5px));
+		background-color: transparent;
+	}
+	.workspace {
+		background: transparent;
+	}
+	.workspace-split.mod-root {
+		background-color: transparent;
+	}
+	.workspace-tab-header-container,
+	.workspace-tab-header-container .workspace-tab-header.tappable.is-active,
+	.workspace-tabs .workspace-leaf,
+	.workspace-split.mod-horizontal.mod-sidedock.mod-left-split,
+	.workspace-split.mod-horizontal.mod-sidedock.mod-left-split .workspace-sidedock-vault-profile,
+	.workspace-split.mod-horizontal.mod-sidedock.mod-right-split,
+	.workspace-split.mod-root .view-content,
+	.workspace-ribbon.side-dock-ribbon.mod-left,
+	.workspace-ribbon.mod-left:before,
+	.view-header,
+	.workspace-leaf.mod-active .view-header,
+	.kanban-plugin {
+		background-color: var(--card-foreground-color);
+	}
+}
+
+/* =========================================== */
+/* ======== Hide UI Elements Settings ======== */
+/* =========================================== */
+
+.hide-name-all {
+  /* Hide file name for files with cssclasses: utility */
+  .workspace-leaf:has(.markdown-preview-view) .view-header-title,
+  .workspace-leaf:has(.kanban-plugin) .view-header-title  {
+    display: none !important;
+  }
+}
+.hide-name-utility {
+  /* Hide file name for files with cssclasses: utility */
+  .workspace-leaf:has(.markdown-preview-view.utility) .view-header-title,
+  .workspace-leaf:has(.kanban-plugin) .view-header-title {
+    display: none !important;
+  }
+}
+.hide-path-all {
+  /* Hide path for files with cssclasses: utility */
+  .workspace-leaf:has(.markdown-preview-view) .view-header-breadcrumb,
+  .workspace-leaf:has(.markdown-preview-view) .view-header-breadcrumb-separator,
+  .workspace-leaf:has(.kanban-plugin) .view-header-breadcrumb,
+  .workspace-leaf:has(.kanban-plugin) .view-header-breadcrumb-separator {
+    display: none !important;
+  }
+}
+.hide-path-utility {
+  /* Hide path for files with cssclasses: utility */
+  .workspace-leaf:has(.markdown-preview-view.utility) .view-header-breadcrumb,
+  .workspace-leaf:has(.markdown-preview-view.utility) .view-header-breadcrumb-separator,
+  .workspace-leaf:has(.kanban-plugin.utility) .view-header-breadcrumb,
+  .workspace-leaf:has(.kanban-plugin.utility) .view-header-breadcrumb-separator {
+    display: none !important;
+  }
+}

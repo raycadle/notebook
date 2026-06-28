@@ -4,7 +4,7 @@
   "openBehavior": "file:README",
   "attachmentFolderPath": "_utilities/assets",
   "alwaysUpdateLinks": true,
-  "newFileLocation": "folder",
+  "newFileLocation": "root",
   "newFileFolderPath": "_utilities/inbox",
   "showUnsupportedFiles": false
 }

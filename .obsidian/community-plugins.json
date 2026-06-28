@@ -1,7 +1,6 @@
 [
-  "obsidian-minimal-settings",
   "quickadd",
+  "obsidian-git",
   "obsidian-style-settings",
-  "cmdr",
-  "obsidian-git"
+  "obsidian-minimal-settings"
 ]

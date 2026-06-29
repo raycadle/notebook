@@ -9,18 +9,9 @@ baseurl: "/notebook"
 plugins:
   - jekyll-remote-theme
   - jekyll-last-modified-at
-  - jekyll-seo-tag
-  - jekyll-include-cache
-  - jekyll-sitemap
 
 color_scheme: dark
 enable_dark_mode: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
 
 # Edit this page link
 gh_edit_link: true

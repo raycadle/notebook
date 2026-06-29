@@ -2,12 +2,11 @@ title: Notebook
 description: Various notes, plans, and ideas.
 favicon_ico: "/assets/images/favicon.ico"
 
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 baseurl: "/notebook"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-last-modified-at
 
 color_scheme: dark

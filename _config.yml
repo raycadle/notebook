@@ -13,6 +13,12 @@ plugins:
 color_scheme: dark
 enable_dark_mode: true
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 # Edit this page link
 gh_edit_link: true
 gh_edit_link_text: "Edit on Github"

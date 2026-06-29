@@ -10,6 +10,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-last-modified-at
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 color_scheme: dark
 enable_dark_mode: true

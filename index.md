@@ -2,8 +2,7 @@
 title: Home
 nav_order: 1
 has_children: true
-layout: home
+layout: minimal
 ---
 
-# Home
-
+# Notebook

@@ -9,6 +9,7 @@ baseurl: "/notebook"
 plugins:
   - jekyll-remote-theme
   - jekyll-last-modified-at
+  - jekyll-seo-tag
 
 color_scheme: dark
 enable_dark_mode: true

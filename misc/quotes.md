@@ -1,6 +1,6 @@
 ---
-tags:
-  - quotes
+title: Quotes
+parent: Misc
 ---
 
 # Quotes

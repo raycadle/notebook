@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
   "newFileFolderPath": "_utilities/inbox",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "livePreview": false
 }

@@ -1,15 +1,15 @@
 ---
-tags:
-  - minimalism
-  - inbox
+title: Belongings
+parent: Principles
 ---
+
 # Belongings
 
 A list of my belongings that gives me an overview of what I own and helps me control what I purchase.
 
-- [[Belongings#EDC|EDC]]
-- [[Belongings#Computers|Computers]]
-- [[Belongings#Tech Accessories|Tech Accessories]]
+- [[belongings#EDC|EDC]]
+- [[belongings#Computers|Computers]]
+- [[belongings#Tech Accessories|Tech Accessories]]
 
 ## EDC
 

@@ -1,8 +1,8 @@
 ---
-tags:
-  - psychology
-  - intp
+title: Understanding Me
+parent: Principles
 ---
+
 # Understanding Me
 
 In my final year of high school, circa 2016, one of my friends recommended I take a personality test. It was more like insisted, because he had just learned about the Myers-Briggs Type Indicator (MBTI) and wanted to get absorbed in it. Long story short, I took the test and got my results: INTP. He was ecstatic, telling me that I got one of the rarest types and started breaking down the type and its meaning.

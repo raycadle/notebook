@@ -5,9 +5,7 @@ parent: Home Cloud
 
 # Streaming Setup
 
-My streaming setup is fairly simple and automated. It's currently made up of Jellyfin for streaming, qBittorrent for downloading, and the \*arr suite (prowlarr, sonarr, radarr, and lidarr) for finding torrents.
-
-The script that I use is below. I chose to name it `streamarr.sh` to pay homage to the work horses of the setup. I thought about creating a git repo to track changes I make to it, but that seems a bit overkill for something that is only used once every year or longer.
+The setup is mostly automated, with manual oversight for dangerous actions.
 
 ```bash
 #!/usr/bin/env bash

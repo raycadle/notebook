@@ -24,3 +24,8 @@ gh_edit_view_mode: "tree"
 # Enable last modified footer timestamp
 last_edit_timestamp: true
 last_edit_time_format: "%b %d, %Y"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

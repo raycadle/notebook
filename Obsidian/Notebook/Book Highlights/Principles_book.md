@@ -2,7 +2,7 @@
 tags:
   - notes/readings/books
 ---
-# Principles
+# Principles Book
 
 ![rw-book-cover](https://is4-ssl.mzstatic.com/image/thumb/Publication128/v4/29/82/1e/29821e03-fe45-d29f-9d87-7d6d9a475dbd/9781501124051.jpg/1400x0w.jpg)
 

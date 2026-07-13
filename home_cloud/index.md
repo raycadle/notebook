@@ -6,7 +6,7 @@ parent: Home
 
 # Home Cloud
 
-Meet Nimbus Mk.1, the Micro Server.
+Meet ***Nimbus Mk.1***, the Micro Server.
 
 (INSERT PICTURE HERE!)
 

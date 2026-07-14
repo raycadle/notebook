@@ -1,7 +1,0 @@
----
-tags:
----
-
-# Ikigai
-
-![[ikigai.jpg]]

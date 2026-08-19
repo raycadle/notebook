@@ -3,7 +3,6 @@
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-catppuccin-light",
   "darkScheme": "minimal-catppuccin-dark",
-  "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 40,
   "lineWidthWide": 50,
@@ -28,7 +27,8 @@
   "underlineInternal": true,
   "underlineExternal": true,
   "folding": true,
-  "lineNumbers": false,
+  "lineNumbers": true,
   "readableLineLength": true,
+  "editorFont": "",
   "devBlockWidth": false
 }

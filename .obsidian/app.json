@@ -7,5 +7,7 @@
   "newFileLocation": "root",
   "newFileFolderPath": "_utilities/inbox",
   "showUnsupportedFiles": false,
-  "livePreview": false
+  "livePreview": false,
+  "vimMode": true,
+  "showLineNumber": true
 }

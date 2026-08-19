@@ -13,11 +13,11 @@ Typically, there are 4 letters that represent different aspects of our personali
 
 The results of my new test were pretty much the same, but with the new addition, it became: INTP-A — the Logician.
 
-![Personality Type]({{ '/assets/images/personality_type.png' | relative_url }})
-![Personality Role]({{ '/assets/images/personality_role.png' | relative_url }})
-![Personality Strategy]({{ '/assets/images/personality_strategy.png' | relative_url }})
+<img src="{{ '/assets/images/personality_type.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
+<img src="{{ '/assets/images/personality_role.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
+<img src="{{ '/assets/images/personality_strategy.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
 
-![Personality Traits]({{ '/assets/images/personality_traits.png' | relative_url }})
+<img src="{{ '/assets/images/personality_traits.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
 
 So, let's explore what this acronym means.
 

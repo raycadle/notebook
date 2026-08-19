@@ -57,6 +57,37 @@
       "fileExistsBehavior": {
         "kind": "prompt"
       }
+    },
+    {
+      "id": "7daaa70f-4231-4297-a200-8d8347e91dae",
+      "name": "Zen Mode",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Zen Mode",
+        "id": "884b5099-dcbd-416c-a7e5-8e94043683b3",
+        "commands": [
+          {
+            "name": "Toggle left sidebar",
+            "type": "Obsidian",
+            "id": "e58d9a52-e307-42cd-99ba-846fdd0f8303",
+            "commandId": "app:toggle-left-sidebar"
+          },
+          {
+            "name": "Toggle right sidebar",
+            "type": "Obsidian",
+            "id": "adc15cf0-9bed-49b5-8f1c-9d23b1482a97",
+            "commandId": "app:toggle-right-sidebar"
+          },
+          {
+            "name": "Minimal Theme Settings: Toggle focus mode",
+            "type": "Obsidian",
+            "id": "c6b88e94-48eb-46ec-9eb0-bbf67f237cce",
+            "commandId": "obsidian-minimal-settings:toggle-minimal-focus-mode"
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "multi-line",

@@ -13,13 +13,14 @@ A list of my belongings that gives me an overview of what I own and helps me con
 
 ## EDC
 
-These are the items that I carry with me wherever I go, whether it's a day out of the house, a trip overseas, or everything in between.
+These are the items that I carry with me wherever I go. Whether it's a day out, a trip overseas, or anyything in between.
 
 | Item                      | Type             |
 | :------------------------ | :--------------- |
 | [[#Samsung Galaxy S20FE]] | Smartphone       |
 | [[#JBL Vibe Buds 2]]      | Wireless Earbuds |
 | [[#G-Shock GA010-1A1]]    | Watch            |
+| [[#Leather Wallet]]       | Wallet           |
 
 ### Samsung Galaxy S20FE
 

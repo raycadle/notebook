@@ -1,7 +1,7 @@
 {
   "showInlineTitle": false,
   "useTab": true,
-  "openBehavior": "file:README",
+  "openBehavior": "",
   "attachmentFolderPath": "_utilities/assets",
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",

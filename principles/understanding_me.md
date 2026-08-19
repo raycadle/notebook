@@ -13,11 +13,11 @@ Typically, there are 4 letters that represent different aspects of our personali
 
 The results of my new test were pretty much the same, but with the new addition, it became: INTP-A — the Logician.
 
-<img src="{{ '/assets/images/personality_type.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
-<img src="{{ '/assets/images/personality_role.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
-<img src="{{ '/assets/images/personality_strategy.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
+<img src="{{ '/assets/images/personality_type.png' | relative_url }}" alt="Diagram" style="max-width: 50%;">
+<img src="{{ '/assets/images/personality_role.png' | relative_url }}" alt="Diagram" style="max-width: 50%;">
 
-<img src="{{ '/assets/images/personality_traits.png' | relative_url }}" alt="Diagram" style="max-width: 30%;">
+<img src="{{ '/assets/images/personality_strategy.png' | relative_url }}" alt="Diagram" style="max-width: 50%;">
+<img src="{{ '/assets/images/personality_traits.png' | relative_url }}" alt="Diagram" style="max-width: 50%;">
 
 So, let's explore what this acronym means.
 
@@ -80,7 +80,7 @@ Because majority of the population has the Observant traits, we may have difficu
 ### Nature: (T)hinking
 
 
-### Tactics: (J)udging
+### Tactics: (P)rospecting
 
 
 ### Identity: (A)ssertive

@@ -90,3 +90,52 @@ Have fun!
 
 This one is simple. You get a ssh private key to use to login to bandit14. From there you can get the password for level 14,
 which you need later on--I guess?
+
+## Level 15
+
+Getting the password for this level is pretty simple, as it usually is at the start.
+Follow the instructions and you should receive the password relatively simply.
+Tip: use `nc` to create a connection to the address and port that is given.
+
+## Level 16
+
+Now it starts to get a bit more complicated.
+It's similar to last level, but now we need to use SSL/TLS, which `nc` doesn't do -- at least not that I know of.
+We need to use `openssl s_client` to connect to the given address and port over SSL/TLS.
+
+## Level 17
+
+Getting deeper.
+Now we need to find the port that we need to connect to.
+How? `nmap`. Then, use `s_client` again to connect to the server after finding it.
+
+## Level 18
+
+This one is fairly simple, but uses a new command: `diff`.
+Put simply, use `diff` to find the password in the files that are given.
+
+## Level 19
+
+This is a fun one.
+You get the password for it, but it kicks you out the moment you connect over SSH.
+
+## Level 20
+
+Fairly straight forward.
+Just follow the instructions and you should be able to get the password for this level.
+
+## Level 21
+
+Another fun one!
+This one took me aback when I first tried it.
+We need to listen for connections on any port that we feel like, and publish the password for level 20 on that server.
+Then, using the `suconnect` setuid binary, we can connect to that port and it will read the password from it.
+Tip: learn how to listen on a port using `nc`.
+
+## Level 22
+
+This one just requires digging into a cronjob, and bash script, and a temporary file.
+Pretty simple, really.
+
+## Level 23
+

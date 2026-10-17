@@ -134,7 +134,7 @@ Tip: learn how to listen on a port using `nc`.
 
 ## Level 22
 
-This one just requires digging into a cronjob, and bash script, and a temporary file.
+This one just requires digging into a cronjob, a bash script, and a temporary file.
 Pretty simple, really.
 
 ## Level 23

@@ -22,7 +22,7 @@ Get oriented with the 6 most important numbers:
 ### 2. Restructure your finances
 
 Set goals for these 6 important numbers:
-- Income: 5 figures per year passively
+- Income: 5 figures per year
 - Expense: minimal, allowing modest comfort
 - Cash-flow: positive 4 figures per month
 - Assets: various cash-flow generating

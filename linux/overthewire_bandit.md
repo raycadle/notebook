@@ -139,3 +139,19 @@ Pretty simple, really.
 
 ## Level 23
 
+This one is pretty simple.
+Check the `cron.d` directory to find the file that has the password.
+Similar to the previous level.
+
+## Level 24
+
+This one was a bit of a pain and I'm not gonna lie, I had to use AI to guide me in the right direction.
+To get the password for this level, follow the instructions and you will get to the point where you need a script to be run by the cronjob.
+If you remember, the passwords are kept on the server somewhere.
+You need a way to copy that password into a file that can be accessed by bandit23.
+
+## Level 25
+
+This one is fun.
+We need to connect to a running service and send the password for level 24 along with a 4-digit PIN code.
+We need to loop through the possible PINs and send them to the service.

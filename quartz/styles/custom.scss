@@ -1,3 +1,35 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+
+/* Compact search icon beside the other toolbar buttons */
+.search {
+  width: auto !important;
+  flex-grow: 0 !important;
+  min-width: 0;
+
+  .search-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    gap: 0;
+
+    /* Match the current Quartz color scheme */
+    background: transparent !important;
+    color: var(--darkgray);
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    p {
+      display: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: 2px;
+    }
+  }
+}

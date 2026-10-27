@@ -54,8 +54,8 @@ plugins:
     enabled: true
     options:
       theme:
-        light: github-light
-        dark: github-dark
+        light: catppuccin-latte
+        dark: catppuccin-mocha
       keepBackground: false
     order: 20
   - source: "@quartz-community/obsidian-flavored-markdown"
@@ -100,7 +100,7 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
-    enabled: true
+    enabled: false
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -180,7 +180,7 @@ plugins:
       priority: 20
       group: toolbar
       groupOptions:
-        grow: true
+        grow: false
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -206,6 +206,7 @@ plugins:
     layout:
       position: left
       priority: 10
+      group: toolbar
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
@@ -213,7 +214,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 35
@@ -242,7 +243,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}

@@ -21,25 +21,25 @@ configuration:
       code: JetBrains Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#eff1f5"
+        lightgray: "#ccd0da"
+        gray: "#9ca0b0"
+        darkgray: "#5c5f77"
+        dark: "#4c4f69"
+        secondary: "#1e66f5"
+        tertiary: "#179299"
+        highlight: rgba(30, 102, 245, 0.15)
+        textHighlight: "#df8e1d88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1e1e2e"
+        lightgray: "#313244"
+        gray: "#6c7086"
+        darkgray: "#bac2de"
+        dark: "#cdd6f4"
+        secondary: "#89b4fa"
+        tertiary: "#94e2d5"
+        highlight: rgba(137, 180, 250, 0.15)
+        textHighlight: "#f9e2af88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -102,25 +102,6 @@ plugins:
   - source: "@quartz-community/hard-line-breaks"
     enabled: false
     order: 90
-  - source: "@quartz-community/ox-hugo"
-    enabled: false
-    order: 91
-  - source: "@quartz-community/roam"
-    enabled: false
-    order: 92
-  - source: "@quartz-community/quartz-fonts"
-    enabled: true
-    options:
-      fontOrigin: googleFonts
-      body: JetBrains Mono
-      header: JetBrains Mono
-      code: JetBrains Mono
-  - source: "@quartz-themes/core"
-    enabled: true
-    options:
-      theme: catppuccin
-      variation: mocha
-      mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
@@ -129,13 +110,6 @@ plugins:
     enabled: true
     options: {}
     order: 45
-  - source: "@quartz-community/encrypted-pages"
-    enabled: false
-    options:
-      iterations: 600000
-      passwordField: password
-      unlistWhenEncrypted: false
-      outputPath: static/encryptedContentIndex.json
   - source: "@quartz-community/stacked-pages"
     enabled: false
     layout:
@@ -167,12 +141,7 @@ plugins:
     enabled: true
     layout:
       position: left
-      priority: 50
-  - source: "@quartz-community/graph"
-    enabled: false
-    layout:
-      position: right
-      priority: 10
+      priority: 40
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -180,12 +149,12 @@ plugins:
       priority: 20
       group: toolbar
       groupOptions:
-        grow: false
+        grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
-      priority: 50
+      priority: 20
   - source: "@quartz-community/article-title"
     enabled: true
     layout:
@@ -206,18 +175,11 @@ plugins:
     layout:
       position: left
       priority: 10
-      group: toolbar
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
       position: left
       priority: 30
-      group: toolbar
-  - source: "@quartz-community/reader-mode"
-    enabled: true
-    layout:
-      position: left
-      priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
     enabled: true
@@ -244,6 +206,9 @@ plugins:
       priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: true
+    layout:
+      position: right
+      priority: 10
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}

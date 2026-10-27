@@ -1,0 +1,32 @@
+---
+publish: true
+title: Resources
+created: 2026-10-26T23:10:26.924Z
+modified: 2026-10-27T00:10:10.162Z
+---
+
+- [JustDeleteMe](https://justdeleteme.xyz/)
+- [JustGetMyData](https://justgetmydata.com/)
+- [JustWhatsTheData](https://justwhatsthedata.github.io/)
+- [LinuxServer.io](https://docs.linuxserver.io/)
+- [Podman](https://docs.podman.io/en/v4.4/Introduction.html)
+- [Rocky Linux](https://docs.rockylinux.org/)
+- [Chezmoi](https://www.chezmoi.io/)
+- [Jellyfin](https://jellyfin.org/docs/)
+- [Ntfy](https://docs.ntfy.sh/)
+- [Arch Wiki](https://wiki.archlinux.org/title/Main_page)
+- [Fedora Workstation](https://docs.fedoraproject.org/en-US/workstation-docs/)
+- [LEMON Manuals](https://lemon-manuals.la/)
+- [Arch Linux Man Page](https://man.archlinux.org/)
+- [Piracy Megathread](https://rentry.co/megathread)
+- [Awesome Privacy](https://awesome-privacy.xyz/)
+- [Privacy Guides](https://www.privacyguides.org/en/)
+- [Privacy Tools](https://www.privacytools.io/)
+- [Digital Defense](https://digital-defense.io/)
+- [Gentoo Security handbook](https://wiki.gentoo.org/wiki/Security_Handbook/Full)
+- [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+- [Arch Wiki Security](https://wiki.archlinux.org/title/security)
+- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
+- [CommandLineFu](https://www.commandlinefu.com/commands/browse)
+- [Advanced Bash Scripting Guide](https://tldp.org/LDP/abs/html/)
+- [The Integral Guide to Well-Being](https://integralguide.com/About)

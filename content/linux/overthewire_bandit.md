@@ -1,0 +1,155 @@
+---
+title: OverTheWire - Bandit
+publish: true
+---
+
+I'm starting over from level 0, as I completely forgot how I solved the puzzles up to where I stopped (level 21).
+I will not store the passwords here as I do not want to spoil the game.
+Each of the below levels have their write-up below them, explaining how I got the password for that level.
+
+## Level 1
+
+Getting the password for level 1 is straight forward. Simply ready the file `readme` that is in the home directory of bandit0.
+
+## Level 2
+
+This starts off seemingly simple. The password is in a file named `-`. How do you read files starting with a `-`?
+One way that I used is to cat the file and use the same syntax as when running a bash script: `cat ./-`.
+I'm sure there are other ways to do the same thing (as always with Linux), but this is the way I decided to do it.
+
+## Level 3
+
+This one is similar to the above. Thanks to tab-complete it's fairly easy to solve. I just used `cat ./--spaces\ in\ this\ filename--`.
+The `\` before the spaces tell the shell interpreter that the space is a literal character.
+
+## Level 4
+
+This password is in a file with 3 periods in front of the file name-- to hide it extra well I guess?
+
+## Level 5
+
+This one could have been tedious. There are a few files that have to be checked, with only 1 containing human-readable text.
+I decided to use a for loop to check what kind of file they are, and running `file` against each file.
+I got back a list of info telling me what kind of file each is. There was one that is relevant.
+
+## Level 6
+
+This is where it started to get interesting. I had to find a file in a subdirectory within a directory that met the criteria:
+- human-readable
+- 1033 bytes in size
+- not executable
+
+There is one program that comes to mind when I want to find a file: `find`.
+Use find with relevant tests to find the file that has the password.
+Apparently, you can use file to determine whether a file is human-readable, which is one of the criteria,
+but it would be pointless since using the above command only finds one file.
+
+## Level 7
+
+Another use of the `find` command. Honestly, it is quickly becoming my favorite command to find files.
+Use find with some relevant tests to find the files that satisfy the criteria.
+
+## Level 8
+
+This one is simple. Use `grep` to find the word "millionth" in the file `data.txt`. The password is next to it on the same line.
+
+## Level 9
+
+This is where new commands come into play. The password only appears once in the file.
+To solve this, `uniq` will need to be used, but there is also another command that needs to be used: `sort`.
+
+When I originally tried this puzzle, I was always getting more than one matches with `uniq`, until I understood how it worked.
+`uniq` compares a line of text against those adjacent to it. The way the file is setup, none of the lines have similar lines adjacent to them.
+That is until you sort the file. Then you see how many duplicates of each line exists. And then you can use `uniq` properly to find the unique line.
+
+## Level 10
+
+This one requires the use of `strings`. That command alone could be used--albeit with a bit of scanning.
+I decided to pass the stdout of `strings` to `grep` and search for the "=" that precedes the password.
+
+## Level 11
+
+This one is pretty simple. Use `base64` against the file and you get the password.
+
+## Level 12
+
+This one is a bit tricky. The password was encoded using ROT13.
+To decode it, use `tr`. The specific arguments to `tr` will need researching/figuring out,
+but you basically need to move each letter over 13 places.
+
+## Level 13
+
+This one is the trickiest yet. It requires decoding a hexdump and extracting numerous archives with different tools.
+To do all this, the file will need to be copied to a directory in /tmp.
+There's a whole lotta tar, gzip, and bzip2 decompression after using xxd to get the hexdump back to a binary file.
+Have fun!
+
+## Level 14
+
+This one is simple. You get a ssh private key to use to login to bandit14. From there you can get the password for level 14,
+which you need later on--I guess?
+
+## Level 15
+
+Getting the password for this level is pretty simple, as it usually is at the start.
+Follow the instructions and you should receive the password relatively simply.
+Tip: use `nc` to create a connection to the address and port that is given.
+
+## Level 16
+
+Now it starts to get a bit more complicated.
+It's similar to last level, but now we need to use SSL/TLS, which `nc` doesn't do -- at least not that I know of.
+We need to use `openssl s_client` to connect to the given address and port over SSL/TLS.
+
+## Level 17
+
+Getting deeper.
+Now we need to find the port that we need to connect to.
+How? `nmap`. Then, use `s_client` again to connect to the server after finding it.
+
+## Level 18
+
+This one is fairly simple, but uses a new command: `diff`.
+Put simply, use `diff` to find the password in the files that are given.
+
+## Level 19
+
+This is a fun one.
+You get the password for it, but it kicks you out the moment you connect over SSH.
+
+## Level 20
+
+Fairly straight forward.
+Just follow the instructions and you should be able to get the password for this level.
+
+## Level 21
+
+Another fun one!
+This one took me aback when I first tried it.
+We need to listen for connections on any port that we feel like, and publish the password for level 20 on that server.
+Then, using the `suconnect` setuid binary, we can connect to that port and it will read the password from it.
+Tip: learn how to listen on a port using `nc`.
+
+## Level 22
+
+This one just requires digging into a cronjob, a bash script, and a temporary file.
+Pretty simple, really.
+
+## Level 23
+
+This one is pretty simple.
+Check the `cron.d` directory to find the file that has the password.
+Similar to the previous level.
+
+## Level 24
+
+This one was a bit of a pain and I'm not gonna lie, I had to use AI to guide me in the right direction.
+To get the password for this level, follow the instructions and you will get to the point where you need a script to be run by the cronjob.
+If you remember, the passwords are kept on the server somewhere.
+You need a way to copy that password into a file that can be accessed by bandit23.
+
+## Level 25
+
+This one is fun.
+We need to connect to a running service and send the password for level 24 along with a 4-digit PIN code.
+We need to loop through the possible PINs and send them to the service.

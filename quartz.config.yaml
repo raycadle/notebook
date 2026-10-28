@@ -160,6 +160,7 @@ plugins:
     layout:
       position: left
       priority: 40
+      display: desktop-only
   - source: "@quartz-community/explorer"
     enabled: true
     layout:
@@ -197,7 +198,7 @@ plugins:
     order: 25
     layout:
       position: left
-      priority: 25
+      priority: 15
       display: mobile-only
   - source: "@quartz-community/note-properties"
     enabled: true

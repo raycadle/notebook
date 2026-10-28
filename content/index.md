@@ -29,7 +29,7 @@ publish: "true"
                                              ~"^"~"^~"^"~"^"~"^"~"^"~"
 ```
 
-This is my cabin in the woods where I keep all my notes, guides, thoughts, and other *useful* stuff.
+This is my cabin in the woods where I keep all my notes, guides, ideas, and other *useful* stuff.
 
 I have a few maps that link to other parts of my woods and beyond.
 

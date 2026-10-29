@@ -29,10 +29,9 @@ publish: "true"
                                              ~"^"~"^~"^"~"^"~"^"~"^"~"
 ```
 
-This is my cabin in the woods where I keep all my notes, guides, ideas, and other *useful* stuff.
+Welcome to my cabin in the woods!
 
-I have a few maps that link to other parts of my woods and beyond.
+I keep notes here, some maps and guides, and other *stuff*.
+Feel free to look around -- maybe you find something useful.
 
-## Maps
-
-- [[bookmarks|Bookmarks]]
+Check out [[bookmarks|Bookmarks]] for links to web tools and resources.

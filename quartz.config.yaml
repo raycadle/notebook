@@ -134,6 +134,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/folder-page"
     enabled: true
+    options:
+      showFolderCount: false
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/page-title"
@@ -157,6 +159,12 @@ plugins:
       group: toolbar
   - source: "@quartz-community/recent-notes"
     enabled: true
+    options:
+      title: "Recents"
+      limit: 3
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
     layout:
       position: left
       priority: 40
@@ -182,7 +190,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30

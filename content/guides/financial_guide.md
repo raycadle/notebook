@@ -1,6 +1,8 @@
 ---
-title: Financial Guidelines
+title: Financial Guide
 publish: true
+tags:
+  - finance
 ---
 
 Money plays a huge role in attaining freedom in today's society.

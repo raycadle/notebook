@@ -1,6 +1,8 @@
 ---
 title: Services and Daemons
 publish: true
+tags:
+  - linux
 ---
 
 ## Reload systemd daemon

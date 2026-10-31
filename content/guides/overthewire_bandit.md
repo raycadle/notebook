@@ -1,6 +1,9 @@
 ---
 title: OverTheWire - Bandit
 publish: true
+tags:
+  - linux
+  - computers
 ---
 
 I'm starting over from level 0, as I completely forgot how I solved the puzzles up to where I stopped (level 21).

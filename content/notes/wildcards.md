@@ -1,6 +1,8 @@
 ---
 title: Wildcards
 publish: true
+tags:
+  - linux
 ---
 
 Can be used as a substitute for characters in a command or search.

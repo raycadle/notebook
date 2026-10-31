@@ -1,6 +1,8 @@
 ---
 title: Links
 publish: true
+tags:
+  - linux
 ---
 
 - inode - Pointer or number of a file on the drive.

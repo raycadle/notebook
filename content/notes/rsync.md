@@ -1,6 +1,8 @@
 ---
 title: Rsync
 publish: true
+tags:
+  - linux
 ---
 
 First, RTFM: `man rsync`.

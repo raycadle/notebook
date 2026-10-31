@@ -18,10 +18,16 @@ publish: true
 
 ## Computers
 
+| Item                  | Type    |
+| --------------------- | ------- |
+| BOOX Go Color 7       | Tablet  |
+| Lenovo Thinkpad T480s | Laptop  |
+| Custom Gaming PC      | Desktop |
+
+## Infrastructure
+
 | Item                       | Type   |
 | -------------------------- | ------ |
-| BOOX Go Color 7            | Tablet |
-| Lenovo Thinkpad T480s      | Laptop |
 | UGREEN NASync DXP4800 Plus | Server |
 | GL.iNet Flint 3            | Router |
 

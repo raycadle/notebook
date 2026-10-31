@@ -1,6 +1,8 @@
 ---
 title: Finding Files
 publish: true
+tags:
+  - linux
 ---
 
 ## find

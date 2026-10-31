@@ -1,6 +1,8 @@
 ---
 title: System Directories
 publish: true
+tags:
+  - linux
 ---
 
 Here's a very informative video about the file system:

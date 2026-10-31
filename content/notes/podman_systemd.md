@@ -1,6 +1,8 @@
 ---
 title: Podman & Systemd
 publish: true
+tags:
+  - linux
 ---
 
 Systemd can be used to start and stop containers at boot and shutdown, respectively. This creates a scenario where no intervention is needed on a system reboot.

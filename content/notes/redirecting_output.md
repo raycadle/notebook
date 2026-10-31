@@ -1,6 +1,8 @@
 ---
 title: Redirecting Output
 publish: true
+tags:
+  - linux
 ---
 
 Redirecting command output is a wonderful thing. For instance, I used a find command to find files larger than 20MB and smaller than 50MB. I have errors printed to stdout, while stdout is redirected to a file.

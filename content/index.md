@@ -29,9 +29,10 @@ publish: "true"
                                              ~"^"~"^~"^"~"^"~"^"~"^"~"
 ```
 
-Welcome to my cabin in the woods!
+## Welcome to my cabin in the woods!
 
-I keep notes here, some maps and guides, and other *stuff*.
-Feel free to look around -- maybe you find something useful.
+Look around -- maybe you find something useful.
 
-Check out [[bookmarks|Bookmarks]] for links to web tools and resources.
+> [!tip] Check out [[bookmarks|Bookmarks]] for links to web tools and resources.
+
+

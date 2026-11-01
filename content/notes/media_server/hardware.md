@@ -1,13 +1,13 @@
 ---
-title: Server Setup
+title: Hardware
 publish: true
 ---
 
-The setup is intentionally compact, making it easy to maintain and relocate.
+The setup is intentionally compact, making it easy to maintain and easy to hide.
 
-## Hardware
+## Hardware Specs
 
-- Make: Dell Inc.
+- Make: Dell
 - Model: Optiplex 3050 Micro
 - CPU: Intel i3-6100T 2c/4t 3.2GHz
 - GPU: Intel HD 530
@@ -15,13 +15,7 @@ The setup is intentionally compact, making it easy to maintain and relocate.
 - SSD0: 512GB NVMe M.2 SSD
 - SSD1: 1TB SATA 2.5in SSD
 
-## Software
-
-OS: Rocky Linux 10
-
-Purpose: Run podman containers to self-host applications. See [[streaming_setup#Applications|Applications]] for more info.
-
-## Future Upgrades
+## Planned Upgrades
 
 - [ ] CPU: i7-7700T 4c/8t 2.9GHz/3.8GHz
 - [ ] Thermal Paste: Thermal Grizzly Cryonaut

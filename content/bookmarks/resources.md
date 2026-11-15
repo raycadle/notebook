@@ -1,14 +1,7 @@
 ---
-title: Bookmarks
+title: Resources
 publish: true
 ---
-## Blogs
-
-- [マリウス](https://xn--gckvb8fzb.com/)
-- [Tofugu — A Japanese Culture & Language Blog](https://www.tofugu.com/)
-
-## Resources
-
 
 - [JustDeleteMe](https://justdeleteme.xyz/)
 - [JustGetMyData](https://justgetmydata.com/)
@@ -35,15 +28,3 @@ publish: true
 - [CommandLineFu](https://www.commandlinefu.com/commands/browse)
 - [Advanced Bash Scripting Guide](https://tldp.org/LDP/abs/html/)
 - [The Integral Guide to Well-Being](https://integralguide.com/About)
-
-## Tools
-
-- [Image Color Picker](https://imagecolorpicker.com/en)
-- [Markdown Badges](https://ileriayo.github.io/markdown-badges/)
-- [Mini QR Code Generator](https://mini-qr-code-generator.vercel.app/)
-- [QRCode Monkey](https://www.qrcode-monkey.com/)
-- [Text to ASCII Generator](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
-- [ShellCheck](https://www.shellcheck.net/)
-- [Ntfy Web App](https://ntfy.sh/app)
-- [CyberChef](https://gchq.github.io/CyberChef/)
-- [Have I Been Pwned](https://haveibeenpwned.com/)

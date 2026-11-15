@@ -33,6 +33,11 @@ publish: "true"
 
 Look around -- maybe you find something useful.
 
-> [!tip] Check out [[bookmarks|Bookmarks]] for links to web tools and resources.
-
-
+> [!tip] Check out...
+>> [!example] [[bookmarks|Bookmarks]] for links to web tools and resources.
+>
+>> [!question] [[guides|Guides]] for walkthroughs and guides.
+>
+>> [!note] [[notes|Notes]] for walkthroughs and guides.
+>
+>> [!quote] [[quotes|Quotes]] for nuggets of advice.

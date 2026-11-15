@@ -1,0 +1,18 @@
+{
+  "showInlineTitle": false,
+  "useTab": true,
+  "openBehavior": "",
+  "attachmentFolderPath": "content/_attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content",
+  "showUnsupportedFiles": false,
+  "livePreview": true,
+  "vimMode": false,
+  "showLineNumber": true,
+  "userIgnoreFilters": [
+    "quartz/",
+    "node_modules/"
+  ],
+  "trashOption": "local"
+}

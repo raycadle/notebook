@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "20ebeac568ee9e85",
+        "id": "c6513940be1212af",
         "type": "tabs",
         "children": [
           {
-            "id": "af8fc8358962d72c",
+            "id": "dc629d58ca0f2c5a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,8 +135,10 @@
       "quickadd:QuickAdd": false
     }
   },
-  "active": "af8fc8358962d72c",
+  "active": "dc629d58ca0f2c5a",
   "lastOpenFiles": [
+    "content/guides/financial_guide.md",
+    "content/simple_life.md",
     "content/bookmarks/blogs.md"
   ]
 }

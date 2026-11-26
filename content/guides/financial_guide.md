@@ -5,13 +5,18 @@ tags:
   - finance
 ---
 
-Money plays a huge role in attaining freedom in today's society.
+Money plays a huge role in attaining freedom in today's society. We need it to secure food and shelter, as well as enjoying most leisurely activities and hobbies. 
 
-## Attaining Financial Freedom
+My goal for personal finance is to keep it as simple as possible, while also leveraging asset protection wherever practical.
 
-### 1. Understand your finances
+This guide acts as a simple way for me to check my progress, and to keep my interest aligned with.
 
-Get oriented with the 6 most important numbers:
+This seems simple in theory, but is vastly complex in practice.
+
+## 1. Understand your finances
+
+To understand your finances, you need to get oriented with the 6 most important numbers:
+
 - Income
 - Expense
 - Cash-flow
@@ -21,7 +26,8 @@ Get oriented with the 6 most important numbers:
 
 ### 2. Restructure your finances
 
-Set goals for these 6 important numbers:
+Now we can set goals for these 6 important numbers:
+
 - Income: 5 figures per year
 - Expense: minimal, allowing modest comfort
 - Cash-flow: positive 4 figures per month

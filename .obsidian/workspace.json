@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/simple_life.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "simple_life"
             }
           }
         ]
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md",
+                "file": "content/simple_life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -156,9 +156,9 @@
   },
   "active": "e30d1761582648f2",
   "lastOpenFiles": [
+    "content/index.md",
     "file:/home/ray/Downloads/Ventoy Drive/Ventoy/README.md",
     "content/notes/notes.md",
-    "content/index.md",
     "content/bookmarks/bookmarks.md",
     "content/misc/misc.md",
     "content/bookmarks/index.md",

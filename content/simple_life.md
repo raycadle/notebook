@@ -1,6 +1,6 @@
 ---
 title: Simple Life
-publish: true
+publish: false
 ---
 
 ## Why Choose a Simple Life?

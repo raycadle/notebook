@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c2be2c2ce67cfe3",
+        "id": "419e6e11e76df115",
         "type": "tabs",
         "children": [
           {
-            "id": "e30d1761582648f2",
+            "id": "31c788387c36d7f2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -149,14 +149,14 @@
       "quickadd:QuickAdd": false
     }
   },
-  "active": "e30d1761582648f2",
+  "active": "31c788387c36d7f2",
   "lastOpenFiles": [
     "content/simple_life.md",
     "content/quotes/quotes.md",
     "content/quotes",
+    "content/notes/media_server/hardware.md",
     "content/notes/media_server/software.md",
     "content/notes/media_server/media_server.md",
-    "content/notes/media_server/hardware.md",
     "content/notes/wildcards.md",
     "content/notes/system_directories.md",
     "content/notes/services_and_daemons.md",

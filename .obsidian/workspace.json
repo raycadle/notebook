@@ -156,6 +156,7 @@
   },
   "active": "e30d1761582648f2",
   "lastOpenFiles": [
+    "file:/home/ray/Downloads/Ventoy Drive/Ventoy/README.md",
     "content/notes/notes.md",
     "content/index.md",
     "content/bookmarks/bookmarks.md",
@@ -200,7 +201,6 @@
     "content/notes/redirecting_output.md",
     "content/notes/podman_systemd.md",
     "content/notes/managing_users_and_groups.md",
-    "content/notes/links.md",
-    "content/notes/finding_files.md"
+    "content/notes/links.md"
   ]
 }
